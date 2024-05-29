@@ -1,3 +1,4 @@
+openai
 altair
 pandas
 streamlit
