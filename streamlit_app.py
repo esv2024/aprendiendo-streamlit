@@ -6,6 +6,10 @@ import streamlit as st
 
 import matplotlib.pyplot as plt
 
+# Load the CSV file to inspect its contents
+data = pd.read_csv("IMDB-Movie-Data.csv")
+data.head()
+
 # Data for plotting
 plot_data = sorted_data.head()
 
