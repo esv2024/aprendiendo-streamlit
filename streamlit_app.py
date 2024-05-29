@@ -7,7 +7,7 @@ import streamlit as st
 # Welcome to Streamlit!
 
 # Load the CSV file to inspect its contents
-file_path = 'streamlit_app.py/IMDB-Movie-Data.csv'
+file_path = 'aprendiento-streamlit/IMDB-Movie-Data.csv'
 data = pd.read_csv(file_path)
 data.head()
 
