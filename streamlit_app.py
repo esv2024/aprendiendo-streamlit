@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-"""
+
 # Welcome to Streamlit!
 
 # Load the CSV file to inspect its contents
