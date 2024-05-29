@@ -7,8 +7,7 @@ import streamlit as st
 # Welcome to Streamlit!
 
 # Load the CSV file to inspect its contents
-file_path = 'aprendiento-streamlit/IMDB-Movie-Data.csv'
-data = pd.read_csv(file_path)
+data = pd.read_csv("IMDB-Movie-Data.csv")
 # data.head()
 
 # Sort the data by the 'Votes' column to find the movies with the least votes
